@@ -1,7 +1,9 @@
 package sarama
 
 import (
-	"crypto/tls"
+	//todo：国密：tls
+	tls "github.com/tjfoc/gmtls"
+	//"crypto/tls"
 	"encoding/binary"
 	"fmt"
 	"io"
